@@ -1,0 +1,39 @@
+# CMake build directory
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Pico SDK build artefacts
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Python virtual environments
+venv/
+.venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Archives (do not commit ZIP archives of source code)
+*.zip
